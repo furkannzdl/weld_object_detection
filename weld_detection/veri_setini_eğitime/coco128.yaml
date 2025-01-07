@@ -1,0 +1,8 @@
+path: /content/kaynak # dataset root dir
+train: /content/kaynak/images/train # train images (relative to 'path') 4 images
+val: /content/kaynak/images/val # val images (relative to 'path') 4 images
+test: # test images (optional)
+
+# Classes
+nc: 3
+names: ['Bad Weld', 'Good Weld', 'Defect']
